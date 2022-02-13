@@ -18,7 +18,7 @@
 问题：删除了原本的ViewController，但是Mian.stroryboard中的 ViewController依然是继承它。
 解决：让 Mian.stroryboard中的 ViewController 继承于一个存在的类。
 
-3. -[__NSArrayI objectAtIndexedSubscript:]: index 6 beyond bounds [0 .. 5]"
+3. “”-[__NSArrayI objectAtIndexedSubscript:]: index 6 beyond bounds [0 .. 5]"
 问题：运行后，数组索引超出范围崩溃
 解决：数组从0开始记录。调整数字大小。
 
